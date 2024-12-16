@@ -4,7 +4,7 @@ const SubscribeSection = () => {
   return (
     <div className="flex items-center justify-center">
       <div className="text-center max-w-xl">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">
+        <h1 className="text-4xl font-bold text-gray-800 mt-6 mb-4">
           Articles and Conversations
         </h1>
         <p className="text-gray-600 mb-6">

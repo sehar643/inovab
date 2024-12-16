@@ -4,7 +4,7 @@ const BrightFuture = () => {
   return (
     <div className="container mx-auto px-4 py-12 ">
       {/* Hero Section */}
-      <div className="flex flex-col md:flex-row items-center justify-between mb-16">
+      <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 mb-8 md:mb-0 order-2 md:order-1">
           <img
             src="/brightfuture1.png"
@@ -12,7 +12,7 @@ const BrightFuture = () => {
             className="w-full max-w-md mx-auto"
           />
         </div>
-        <div className="md:w-2/5 mb-8 md:mb-0 order-1 md:order-2">
+        <div className="md:w-2/5 mb- md:mb-0 order-1 md:order-2">
           <h1 className="text-3xl md:text-4xl mb-4 tracking-wide leading-tight">
             Bright Future with Inovab Digital Lab
           </h1>
@@ -27,7 +27,7 @@ const BrightFuture = () => {
       </div>
 
       {/* USDI Section */}
-      <div id="get-usdi-section" className="mb-16 flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 ">
+      <div id="get-usdi-section" className=" flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 ">
         <div className="w-full md:w-2/5 md:ml-20 lg:ml-20 mb-8 md:mb-0">
           <h2 className="text-2xl md:text-3xl font-semibold mb-4">Get USDI</h2>
           <p className="text-gray-600 mb-8 text-justify">
@@ -90,7 +90,7 @@ const BrightFuture = () => {
 
       {/* Transparent Section */}
       <div className="flex flex-col mt-10 md:flex-row items-center justify-between">
-        <div className="md:w-2/5 mb-8 md:mb-0 order-2 md:order-1">
+        <div className="md:w-2/5 mt-4 md:mb-0 order-2 md:order-1">
           <img
             src="/brightfuture3.png"
             alt="Transparent Illustration"

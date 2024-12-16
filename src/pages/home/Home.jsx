@@ -3,7 +3,7 @@ import HomeHeader from "./_components/HomeHeader";
 import GlobalPartner from "./_components/GlobalPartner";
 import WhyChoose from "./_components/WhyChoose";
 import WhyShould from "./_components/WhyShould";
-import Transparency from "./_components/Transparency";
+import Transparency from "./_components/Transparency.jsx";
 import BrightFuture from "./_components/BrightFuture";
 import Reports from "./_components/Reports";
 import Networks from "./_components/Networks";

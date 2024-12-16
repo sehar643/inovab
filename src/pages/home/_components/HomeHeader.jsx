@@ -37,7 +37,7 @@ const HomeHeader = () => {
         <img
           src="/homeHeader.png"
           alt="Decorative"
-          className="w-full h-96"
+          className="w-full md:h-96 lg:h-96"
         />
       </div>
     </div>

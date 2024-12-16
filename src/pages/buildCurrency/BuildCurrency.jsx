@@ -63,54 +63,55 @@ const BuildCurrency = () => {
           </div>
         </div>
       </div>
-      <div
-        className="relative w-full h-[120px] bg-no-repeat flex flex-col justify-center px-4 text-black z-10"
-      >
-        <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl mb-4 ml-12">
+
+
+      <div className="relative w-full h-auto py-8 bg-no-repeat flex flex-col items-center justify-center px-4 text-black z-10">
+        <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl mb-4 text-center">
           Our Senior Leadership
         </h2>
-        <p className="ml-16 mb-14">
-          With a distinctive blend of technological innovation and financial expertise — enriched <br />by our own firsthand experience — we offer a fresh perspective on a time-honored industry.
+        <p className="text-center max-w-3xl mb-8 px-4">
+          With a distinctive blend of technological innovation and financial expertise — enriched 
+          by our own firsthand experience — we offer a fresh perspective on a time-honored industry.
         </p>
       </div>
-      <div className="bg-gray py-2">
-        <div className="grid grid-cols-3 gap-10 px-20">
+      <div className="bg-gray py-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-8 lg:px-20 max-w-7xl mx-auto">
           {/* Team Member 1 */}
-          <div className="bg-white shadow-md rounded-lg p-2">
+          <div className="bg-white shadow-md rounded-lg p-2 flex flex-col h-full">
             <img
               src="/imran.jpg"
               alt="Team Member 1"
-              className="w-full h-67"
+              className="w-full h-96 object-cover rounded-lg"
             />
-            <div className="p-4 text-center">
+            <div className="p-4 text-center flex-grow">
               <h4 className="text-lg font-bold mb-2">Mr. Imran Nazeer</h4>
-              <p className="text-gray-700 text-sm">Co-Founder & Chief Excutive Oficer</p>
+              <p className="text-gray-700 text-sm">Co-Founder & Chief Executive Officer</p>
               <p className="text-gray-600 mt-4 text-sm">
                 Mr.Imran Co-Founder & Chief Executive Officer with extensive experience in leading innovative ventures, driving strategic growth, and delivering impactful solutions in the digital finance and blockchain industry.
               </p>
             </div>
           </div>
           {/* Team Member 2 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden p-2">
+          <div className="bg-white shadow-md rounded-lg p-2 flex flex-col h-full">
             <img
               src="/umar1.JPG"
-              alt="Team Member 3"
-              className="w-full h-61"
+              alt="Team Member 2"
+              className="w-full h-96 object-cover rounded-lg"
             />
-            <div className="p-4 text-center">
+            <div className="p-4 text-center flex-grow">
               <h4 className="text-lg font-bold mb-2">Mr. Usman Nazeer</h4>
               <p className="text-gray-700 text-sm">Chief Technology Officer</p>
               <p className="text-gray-600 mt-4 text-sm">
-                Michael is responsible for driving the company’s marketing strategy and ensuring global brand visibility.
+                Michael is responsible for driving the company's marketing strategy and ensuring global brand visibility.
               </p>
             </div>
           </div>
           {/* Team Member 3 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden p-2">
+          <div className="bg-white shadow-md rounded-lg p-2 flex flex-col h-full">
             <img
               src="/umar1.JPG"
               alt="Team Member 2"
-              className="w-full h-61"
+              className="w-full h-96 object-cover rounded-lg"
             />
             <div className="p-6 text-center">
               <h4 className="text-xl font-bold mb-2">Mr. Umar Jamil</h4>
@@ -121,11 +122,11 @@ const BuildCurrency = () => {
             </div>
           </div>
           {/* Team Member 4 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden p-2">
+          <div className="bg-white shadow-md rounded-lg p-2 flex flex-col h-full">
             <img
               src="/umar1.JPG"
               alt="Team Member 2"
-              className="w-full h-61"
+              className="w-full h-96 object-cover rounded-lg"
             />
             <div className="p-6 text-center">
               <h4 className="text-xl font-bold mb-2">Mr. Mubeen Raees</h4>
@@ -136,11 +137,11 @@ const BuildCurrency = () => {
             </div>
           </div>
           {/* Team Member 5 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden p-2">
+          <div className="bg-white shadow-md rounded-lg p-2 flex flex-col h-full">
             <img
               src="/umar1.JPG"
               alt="Team Member 2"
-             className="w-full h-61"
+             className="w-full h-96 object-cover rounded-lg"
             />
             <div className="p-4 text-center">
               <h4 className="text-lg font-bold mb-2">Mr. Wirdan Anwar</h4>
@@ -151,79 +152,22 @@ const BuildCurrency = () => {
             </div>
           </div>
           {/* Team Member 6 */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden p-2">
+          <div className="bg-white shadow-md rounded-lg p-2 flex flex-col h-full">
             <img
               src="/umar1.JPG"
               alt="Team Member 3"
-              className="w-full h-61"
+              className="w-full h-96 object-cover rounded-lg"
             />
             <div className="p-4 text-center">
               <h4 className="text-lg font-bold mb-2">Mr. Attique Rehman</h4>
               <p className="text-gray-700 text-sm">Chief Marketing Manager</p>
               <p className="text-gray-600 mt-4 text-sm">
-                Michael is responsible for driving the company’s marketing strategy and ensuring global brand visibility.
+                Michael is responsible for driving the company's marketing strategy and ensuring global brand visibility.
               </p>
             </div>
           </div>
         </div>
       </div>
-
-      {/* <div
-        className="relative w-full mt-10 h-[120px] bg-black bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center px-4 text-center text-white z-10"
-      >
-        <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl mb-4">
-          Our Development Team
-        </h2>
-      </div> */}
-      {/* <div className="bg-gray-80 py-8">
-        <div className="grid md:grid-cols-3 gap-8 px-4">
-          <div className="bg-white shadow-md rounded-lg overflow-hidden p-2">
-            <img
-              src="/src/assets/umar.jpg"
-              alt="Team Member 1"
-              className="w-full h-61"
-            />
-            <div className="p-6 text-center">
-              <h4 className="text-xl font-bold mb-2">John Doe</h4>
-              <p className="text-gray-700">Chief Executive Officer</p>
-              <p className="text-gray-600 mt-4 text-sm">
-                John is a visionary leader with over 15 years of experience in driving business growth and innovation.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-white shadow-md rounded-lg overflow-hidden p-2">
-            <img
-              src="/src/assets/umar.jpg"
-              alt="Team Member 2"
-              className="w-full h-61"
-            />
-            <div className="p-6 text-center">
-              <h4 className="text-xl font-bold mb-2">Jane Smith</h4>
-              <p className="text-gray-700">Chief Technology Officer</p>
-              <p className="text-gray-600 mt-4 text-sm">
-                Jane is an expert in blockchain technology and has been a key contributor to our technical advancements.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-white shadow-md rounded-lg overflow-hidden p-2">
-            <img
-              src="/src/assets/umar.jpg"
-              alt="Team Member 3"
-             className="w-full h-61"
-            />
-            <div className="p-6 text-center">
-              <h4 className="text-xl font-bold mb-2">Michael Johnson</h4>
-              <p className="text-gray-700">Chief Marketing Officer</p>
-              <p className="text-gray-600 mt-4 text-sm">
-                Michael is responsible for driving the company’s marketing strategy and ensuring global brand visibility.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
     </div>
   );
 };

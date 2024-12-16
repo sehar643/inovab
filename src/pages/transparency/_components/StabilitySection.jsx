@@ -61,7 +61,7 @@ const StabilitySection = () => {
 
   return (
     <div className="bg-gradient-to-r from-blue-50 via-white to-blue-50">
-      <section className="py-20 px-4 sm:px-6 lg:px-32">
+      <section className="py-10 px-4 sm:px-6 lg:px-32">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Stability You Can Rely On
@@ -73,7 +73,7 @@ const StabilitySection = () => {
             redemption rate for US dollars.
           </p>
         </div>
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <FeatureCard
               key={index}

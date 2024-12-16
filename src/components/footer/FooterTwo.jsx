@@ -8,6 +8,13 @@ import { RiTwitterXLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 const FooterTwo = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   return (
     <footer className="bg-black text-white py-16">
       <div className="container mx-auto px-4">
@@ -72,6 +79,7 @@ const FooterTwo = () => {
                 <Link
                   to="/partnership"
                   className="text-gray-400 hover:text-white"
+                  onClick={scrollToTop}
                 >
                   Contact Us For Partnership
                 </Link>
@@ -80,6 +88,7 @@ const FooterTwo = () => {
                 <Link
                   to="/transparency"
                   className="text-gray-400 hover:text-white"
+                  onClick={scrollToTop}
                 >
                   Consistency & Transparency
                 </Link>
@@ -93,7 +102,9 @@ const FooterTwo = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/criteria" className="text-gray-400 hover:text-white">
+                <Link to="/criteria" className="text-gray-400 hover:text-white"
+                  onClick={scrollToTop}
+                >
                   Reward Distribution Eligibility Criteria
                 </Link>
               </li>

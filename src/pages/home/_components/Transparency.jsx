@@ -32,16 +32,16 @@ const Transparency = () => {
 
   return (
     <div className="bg-gradient-to-r from-blue-50 via-white to-blue-50">
-      <div className="max-w-7xl mx-auto px-4 py-8 md:px-8 ">
+      <div className="max-w-7xl mx-auto px-4 py-4 md:px-8 ">
         <h1 className="text-4xl font-bold text-center mb-4">
           Consistency & Transparency
         </h1>
-        <p className="text-gray-600 text-center max-w-2xl mx-auto mb-12">
+        <p className="text-gray-600 text-center max-w-2xl mx-auto mb-4">
           USDI is consistently redeemable on a 1:1 basis for US dollars,
           guaranteed at all times
         </p>
-        <div className="flex">
-          <h2 className="text-2xl font-semibold mb-6">Reserves Composition</h2>
+        <div className="flex ">
+          <h2 className="text-2xl font-semibold mb-4">Reserves Composition</h2>
         </div>
         <div className="flex flex-col md:flex-row gap-8">
           {/* Left Section - Reserves Composition */}
@@ -65,7 +65,7 @@ const Transparency = () => {
 
               {/* Chart Container */}
               <div className="relative w-2/2">
-                <PieChart width={300} height={300}>
+                <PieChart width={200} height={300}>
                   <Pie
                     data={donutData}
                     innerRadius={60}
@@ -102,7 +102,7 @@ const Transparency = () => {
           {/* Right Section - Issuance & Redemption */}
 
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold md:-mt-12 mb-6">
+            <h2 className="text-2xl font-semibold md:-mt-12 mb-5">
               Issuance & Redemption
             </h2>
             <div className="space-y-4">
@@ -128,7 +128,7 @@ const Transparency = () => {
           </div>
         </div>
 
-        <p className="text-gray-600 text-center mt-12">
+        <p className="text-gray-600 text-center mt-6">
           Inovab Digital Labs is an SECP-registered company that maintains a
           portfolio consisting of short-dated US Treasuries, overnight US
           Treasury repurchase agreements, and cash. For more information, please

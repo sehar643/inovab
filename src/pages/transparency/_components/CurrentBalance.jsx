@@ -5,7 +5,7 @@ const Card = ({ title, totalAuthorized, lessAuthorized, netCirculation }) => {
     <div className="bg-white shadow-md rounded-lg p-6 w-full md:w-full">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-xl font-bold">{title}</h2>
-        <button className="bg-blue-50 hover:bg-gray-100 text-blue-500 border border-blue-500 font-bold py-1 px-8 rounded">
+        <button className="bg-blue-50 hover:bg-gray-100 text-blue-500 border border-blue-500 font-bold py-1 md:px-8 lg:px-8 px-2 rounded">
           Detail
         </button>
         <div className="bg-blue-500 h-1 w-2/4"></div>

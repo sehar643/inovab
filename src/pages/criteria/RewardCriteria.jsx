@@ -15,9 +15,9 @@ const RewardCriteria = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-blue-50 to-white">
-      <div className="container mx-auto px-6 py-12 grid lg:grid-cols-4 gap-8">
+      <div className="container py-12 grid lg:grid-cols-4 gap-8">
         {/* Left Content */}
-        <div className="lg:col-span-3 ml-20">
+        <div className="lg:col-span-3 md:ml-20 lg:ml-20 px-5">
           {sections.map((section) => (
             <div id={section.id} key={section.id} className="mb-8 scroll-mt-20">
               <h2 className="text-xl font-bold text-gray-800 mb-2">{section.title}</h2>

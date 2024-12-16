@@ -31,7 +31,7 @@ const News = () => {
               <h2 className="text-xl font-bold text-gray-800 mb-2">
                 {section.title}
               </h2>
-              <p className="text-gray-600 leading-relaxed text-justify">
+              <p className="text-gray-600 leading-relaxed">
                 {section.id === "section1" ? (
                   <>
                     USDI is a revolutionary digital currency designed to
@@ -80,7 +80,7 @@ const News = () => {
         </div>
 
         {/* Right Sidebar */}
-        <div className="lg:col-span-1 rounded-lg shadow-md p-4 sticky top-6 h-max">
+        <div className="lg:col-span-1 rounded-lg shadow-md p-4 sticky top-24 h-max">
           <ul className="space-y-3">
             {sections.map((section) => (
               <li key={section.id}>

@@ -63,7 +63,7 @@ const AllBlogPosts = () => {
   const totalPages = Math.ceil(articles.length / postsPerPage);
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 md:py-8 lg:py-10">
       <h2 className="text-2xl font-semibold mb-6">Related Articles</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {currentPosts.map((article, index) => (
@@ -91,7 +91,7 @@ const AllBlogPosts = () => {
       </div>
 
       {/* Pagination Controls */}
-      <div className="flex justify-center items-center space-x-2 mt-8">
+      <div className="flex justify-center items-center space-x-2 mb-4 md:mb-0 lg:mb-0 mt-4 md:mt-10 lg:mt-12">
         <button
           onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
           disabled={currentPage === 1}
